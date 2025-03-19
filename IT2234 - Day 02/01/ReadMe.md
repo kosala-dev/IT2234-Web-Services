@@ -21,50 +21,7 @@ The provided JavaScript file includes:
 9. **Exercise 04**: Reverses an array using push & pop.
 
 ## Expected Output
-
-```bash
-[ 50, 4, 10, 2 ]
-For loop method
-50
-4
-10
-2
-For each loop
-50
-4
-10
-2
-Largest element in the array
-50
-Nested array
-1
-2
-30
-5
-6
-8
-5
-3
-Exercise 01
-1 6
-2 5
-3 4
-4 3
-5 2
-6 1
-Exercise 02
-5
-3
-Exercise 03
-Most frequent element: 4
-Array Operations
-Push
-[ 'a', 'b', 'd', 'e' ]
-Pop
-[ 'a', 'b', 'd' ]
-Exercise 04
-[ 'd', 'c', 'b', 'a' ]
-```
+<img width="959" alt="output" src="https://github.com/user-attachments/assets/3d206c16-0f8b-4458-9114-05b280327a6b" />
 
 ## How to Run
 1. Ensure you have [Node.js](https://nodejs.org/) installed.
