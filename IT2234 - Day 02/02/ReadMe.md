@@ -24,10 +24,6 @@ node Json.js
 ```
 Or, copy and paste the code into the browser's developer console.
 
-## Expected Outputs
-```sh
-Female Students [{id: 1, name: 'Alice', gender: 'Female', course: 'IT', gpa: 3.8}, ...]
-IT Course Students [{id: 1, name: 'Alice', course: 'IT', gpa: 3.8}, ...]
-Maximum GPA: 4.0
-Average GPA: 3.51
-```
+##Expected Output
+<img width="959" alt="Output" src="https://github.com/user-attachments/assets/55450942-309a-43c3-ae89-f9878dd0d745" />
+
