@@ -80,3 +80,7 @@ To execute the JavaScript files:
 node filename.js
 ```
 Or, copy-paste the code into the browser's developer console.
+
+## Expected Outputs
+<img width="959" alt="Screenshot 2025-03-20 200416" src="https://github.com/user-attachments/assets/6458598f-5e9d-40f5-9545-2de3e366fb24" />
+
