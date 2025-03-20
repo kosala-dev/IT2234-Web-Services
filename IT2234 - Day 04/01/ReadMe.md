@@ -25,7 +25,10 @@ This script creates a basic HTTP server that responds with `Hello Node JS` when 
 ```sh
 Running on: 127.0.0.1:3000
 ```
-##Example
+## Example
+Browser;
 <img width="957" alt="Screenshot 2025-03-20 221823" src="https://github.com/user-attachments/assets/9d2d0564-973e-4b7a-b817-1d9d7450601c" />
+
+Command Promt;
 <img width="959" alt="Screenshot 2025-03-20 221724" src="https://github.com/user-attachments/assets/a37fe710-4bd6-4684-8300-fce2d3ef81ca" />
 
