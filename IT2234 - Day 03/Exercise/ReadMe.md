@@ -19,7 +19,7 @@ This script demonstrates JavaScript arrow functions.
   ```sh
   11
   ```
-
+  
 - **Multiplication with a default parameter:**
   ```js
   const mul = (x, y = 2) => { return x * y };
@@ -29,6 +29,7 @@ This script demonstrates JavaScript arrow functions.
   ```sh
   10
   ```
+<img width="959" alt="Arrow" src="https://github.com/user-attachments/assets/29848ffc-7ee8-4c83-9293-76486fd75329" />
 
 ---
 
@@ -50,6 +51,7 @@ This script demonstrates the use of rest parameters in functions.
   ```sh
   Sum: 35
   ```
+<img width="959" alt="Arrow rest" src="https://github.com/user-attachments/assets/a976dc10-7c94-4f7b-879e-1edf216371b0" />
 
 ---
 
@@ -72,7 +74,7 @@ This script checks whether a given number is prime.
       return primeNumber;
   }
   ```
-
+  
 - **Usage Example:**
   ```js
   function primeChecker(a, isPrime) {
@@ -91,6 +93,7 @@ This script checks whether a given number is prime.
   10 is not a prime number
   7 is a prime number
   ```
+<img width="959" alt="prime checker" src="https://github.com/user-attachments/assets/ebabd973-55c5-4227-ab07-32209a62ddb3" />
 
 ---
 
@@ -117,6 +120,8 @@ This script demonstrates recursion by printing numbers from 1 to `n`.
   4
   5
   ```
+<img width="959" alt="recursive" src="https://github.com/user-attachments/assets/2c858b86-feec-4e87-b6aa-d4d10c82bc60" />
+
 
 ## Running the Code
 To execute any of the JavaScript files:
