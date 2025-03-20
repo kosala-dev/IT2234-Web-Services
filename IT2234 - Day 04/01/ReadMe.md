@@ -8,8 +8,6 @@ This project demonstrates a simple HTTP server using Node.js.
 ## Code Overview
 This script creates a basic HTTP server that responds with `Hello Node JS` when accessed.
 
-```
-
 ## Running the Server
 1. Save the script as `server.js`.
 2. Open a terminal and navigate to the script location.
