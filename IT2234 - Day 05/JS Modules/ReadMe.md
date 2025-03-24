@@ -31,7 +31,7 @@ GET /
 **Response:**
 Returns all students.
 
-📌 _Upload Screenshot Here_
+<img width="959" alt="Postman 1" src="https://github.com/user-attachments/assets/c2da0fa2-1d3a-4906-9252-35bb50a1959f" />
 
 ---
 
@@ -43,7 +43,8 @@ GET /third-student
 **Response:**
 Returns the information of the third student in the list.
 
-📌 _Upload Screenshot Here_
+<img width="959" alt="Postman 1" src="https://github.com/user-attachments/assets/a7fc3061-15ec-4bbc-8798-9b075eaeea0a" />
+
 
 ---
 
@@ -59,7 +60,11 @@ GET /stu/2021ICT36
 **Response:**
 Returns the student with the specified registration number.
 
-📌 _Upload Screenshot Here_
+<img width="959" alt="Postman 2" src="https://github.com/user-attachments/assets/342bb736-92c4-45fe-8802-3cb229b80794" />
+
+If the preffered registration number is not present a 404 error message is displayed
+
+<img width="959" alt="Postman 3 error" src="https://github.com/user-attachments/assets/89b83738-f1a8-416a-8e1e-8ddb78db25b3" />
 
 ---
 
@@ -75,7 +80,8 @@ GET /stu/gender/Male
 **Response:**
 Returns all students matching the specified gender.
 
-📌 _Upload Screenshot Here_
+<img width="959" alt="Postman 4" src="https://github.com/user-attachments/assets/2c738d18-72e1-4b50-860c-54b9ec41cbbc" />
+
 
 ---
 
@@ -91,6 +97,8 @@ Returns all students matching the specified gender.
 ```sh
 Server is running on: http://localhost:3001
 ```
+<img width="959" alt="CMD" src="https://github.com/user-attachments/assets/49623127-a4cd-4a71-8d86-ce5e5294077a" />
+
 
 ## Contributions
 Feel free to modify and improve the API. Open a pull request with your changes!
