@@ -43,7 +43,8 @@ GET /third-student
 **Response:**
 Returns the information of the third student in the list.
 
-<img width="959" alt="Postman 1" src="https://github.com/user-attachments/assets/a7fc3061-15ec-4bbc-8798-9b075eaeea0a" />
+<img width="959" alt="Screenshot 2025-03-25 144137" src="https://github.com/user-attachments/assets/1f4b6211-4cb9-4cd0-b32c-2f68f2ab9bbf" />
+
 
 
 ---
