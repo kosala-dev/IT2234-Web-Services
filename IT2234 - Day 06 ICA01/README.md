@@ -66,7 +66,9 @@ Result: 58
 ```
 
 🖼️ **Screenshot of Console Output**
-> _Upload screenshot here_
+
+<img width="959" alt="1" src="https://github.com/user-attachments/assets/82347de9-980a-4505-8937-7e792835641a" />
+
 
 ---
 
@@ -79,7 +81,9 @@ Result: 58
 ```
 
 🖼️ **Screenshot of Console Output**
-> _Upload screenshot here_
+
+<img width="959" alt="2" src="https://github.com/user-attachments/assets/f36ec9fe-fd0c-4ace-ad2c-74278961aa0a" />
+
 
 ---
 
@@ -94,7 +98,9 @@ maxNumber(8754) = 8754
 ```
 
 🖼️ **Screenshot of Console Output**
-> _Upload screenshot here_
+
+<img width="959" alt="3" src="https://github.com/user-attachments/assets/e13986cb-218f-4d75-87d1-ce12b518096f" />
+
 
 ---
 
@@ -109,7 +115,8 @@ convertToHex(4115) = 1013
 ```
 
 🖼️ **Screenshot of Console Output**
-> _Upload screenshot here_
+
+<img width="959" alt="4" src="https://github.com/user-attachments/assets/0de75557-1e64-4746-981a-4e2c0720d82b" />
 
 ---
 
