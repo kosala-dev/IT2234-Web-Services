@@ -65,8 +65,8 @@ To run this project, make sure you have the following installed:
 
 To start the server, run:
 
-```bash
 node index.js
+
 Your server will now be running on port 3001. You should see the following message in the terminal:
 Server is running on 3001
 
@@ -101,7 +101,3 @@ Example Response:
 Response: Sorry, No Data Found
 
 <img width="959" alt="4" src="https://github.com/user-attachments/assets/c263b8a8-794b-4f30-b87f-9e08b281d240" />
-
-
-500 Internal Server Error: If the server encounters an issue.
-
