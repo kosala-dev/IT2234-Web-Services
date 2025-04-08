@@ -25,10 +25,11 @@ Clone or download this repository.
 Ensure the files file.txt and data.txt are available in the same directory as the script files.
 
 Run the scripts using Node.js by executing the following commands:
-
-bash
-Copy
-Edit
 node asynawait.js
 node asynpro.js
 node promiseapp.js
+
+# Expected Outputs
+
+<img width="959" alt="1" src="https://github.com/user-attachments/assets/cebd45e5-d45c-484f-b6ce-8900bf42735d" />
+
