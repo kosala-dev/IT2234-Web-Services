@@ -1,4 +1,4 @@
-# Student Management API 📚
+# Student Management API 
 
 Welcome to the **Student Management API** built using **Node.js** and **Express**! This simple API helps manage student data, allowing you to fetch lists of students or individual student details using their registration number. It's designed to be easy to use, lightweight, and highly extensible.
 
@@ -68,11 +68,8 @@ To start the server, run:
 ```bash
 node index.js
 Your server will now be running on port 3001. You should see the following message in the terminal:
-
-pgsql
-Copy
-Edit
 Server is running on 3001
+
 📡 API Endpoints
 1. Get all students
 Endpoint: GET /student/
@@ -81,7 +78,8 @@ Response: A list of all students in JSON format.
 
 Example Response:
 
-ss
+<img width="959" alt="2" src="https://github.com/user-attachments/assets/9ecb1704-1230-4ee1-951b-ec6e9e402a1e" />
+
 
 2. Get a student by registration number
 Endpoint: GET /student/:id
@@ -94,14 +92,16 @@ Response: A student's details in JSON format.
 
 Example Response:
 
-ss
+<img width="959" alt="3" src="https://github.com/user-attachments/assets/997ed637-af93-4cd7-8588-172934eb55c2" />
+
 
 🚨 Error Handling
 404 Not Found: If no student is found with the provided registration number.
 
 Response: Sorry, No Data Found
 
-ss
+<img width="959" alt="4" src="https://github.com/user-attachments/assets/c263b8a8-794b-4f30-b87f-9e08b281d240" />
+
 
 500 Internal Server Error: If the server encounters an issue.
 
