@@ -1,5 +1,5 @@
 
-# Bookshop MongoDB Setup
+# Bookshop MongoDB
 
 This document provides MongoDB shell commands to set up and interact with a `bookshop` database.
 
@@ -63,6 +63,7 @@ db.books.insertMany([
   }
 ])
 ```
+![1](https://github.com/user-attachments/assets/22cac2a0-8888-4361-aeaf-d3f042b5e8b8)
 
 ---
 
@@ -72,31 +73,44 @@ db.books.insertMany([
   ```js
   db.books.find()
   ```
+![2](https://github.com/user-attachments/assets/50b937e0-3db7-4282-9db5-95e960cdd004)
+![3](https://github.com/user-attachments/assets/19315662-e23e-4a20-a1e9-a8d242359805)
+![4](https://github.com/user-attachments/assets/90738a7c-b06d-4a02-8841-141f7fadf7ef)
+
 
 - **Find books published after 1950**  
   ```js
   db.books.find({ published_year: { $gt: 1950 } })
   ```
+![5](https://github.com/user-attachments/assets/0bd80d19-602f-4483-97d1-80c52167d950)
 
+  
 - **Find available books**  
   ```js
   db.books.find({ available: true })
   ```
+![6](https://github.com/user-attachments/assets/159148e3-0ee3-462a-af89-0e8f9953ccec)
+![7](https://github.com/user-attachments/assets/6d9ae793-1fb6-4c5e-aaa0-1a0ee697d1bf)
+
 
 - **Find books in the "Dystopian" genre**  
   ```js
   db.books.find({ genres: "Dystopian" })
   ```
+  ![8](https://github.com/user-attachments/assets/f4328031-711b-4b62-9302-2c920dd8c469)
+
 
 - **Books published after 1950 and rated > 4.0**  
   ```js
   db.books.find({ published_year: { $gt: 1950 }, rating: { $gt: 4.0 } })
   ```
+  <img width="425" alt="9" src="https://github.com/user-attachments/assets/c09d44b3-f282-4d46-b194-f70d1e5630f7" />
 
 - **Project only title and author fields**  
   ```js
   db.books.find({}, { title: 1, author: 1, _id: 0 })
   ```
+<img width="415" alt="10" src="https://github.com/user-attachments/assets/93484a2e-b7ac-4eef-8a26-d27cbed9d051" />
 
 ---
 
@@ -106,16 +120,21 @@ db.books.insertMany([
   ```js
   db.books.updateOne({ title: "1984" }, { $set: { available: false } })
   ```
+  <img width="416" alt="11" src="https://github.com/user-attachments/assets/0fdcd978-2351-401f-940b-ae48e882affe" />
+
 
 - **Increase rating of "Brave New World" by 0.1**  
   ```js
   db.books.updateOne({ title: "Brave New World" }, { $inc: { rating: 0.1 } })
   ```
+  <img width="370" alt="12" src="https://github.com/user-attachments/assets/385e07c3-62fe-45d2-a3e0-28f01f3141e0" />
+
 
 - **Add "Classic" genre to "The Great Gatsby"**  
   ```js
   db.books.updateOne({ title: "The Great Gatsby" }, { $push: { genres: "Classic" } })
   ```
+  <img width="496" alt="13" src="https://github.com/user-attachments/assets/059d95d7-6db5-4099-a69b-f65ca87da07c" />
 
 ---
 
@@ -125,13 +144,18 @@ db.books.insertMany([
   ```js
   db.books.find().sort({ published_year: 1 })
   ```
+  <img width="719" alt="14" src="https://github.com/user-attachments/assets/fe1d7802-9481-4401-aa74-5efe808ab389" />
+
 
 - **Sort by `rating` descending**  
   ```js
   db.books.find().sort({ rating: -1 })
   ```
+  <img width="721" alt="15" src="https://github.com/user-attachments/assets/52e96d2a-9b76-4f96-a208-d81987edfd72" />
+
 
 - **Delete books with rating < 4.5**  
   ```js
   db.books.deleteMany({ rating: { $lt: 4.5 } })
   ```
+<img width="413" alt="16" src="https://github.com/user-attachments/assets/7d9c47fc-3748-4461-b5a1-52f8f0ca596d" />
