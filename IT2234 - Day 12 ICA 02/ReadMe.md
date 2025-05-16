@@ -49,6 +49,7 @@ db.students.find(
 
 ## ✅ Task 5: All Grades for "Alice Johnson"
 
+```js
 db.students.aggregate([
   { $match: { name: "Alice Johnson" } },
   {
@@ -67,8 +68,6 @@ db.students.aggregate([
     }
   }
 ])
-
-
 ---
 <img width="958" alt="5" src="https://github.com/user-attachments/assets/f92ec302-58da-4c03-b47d-9641a84c2867" />
 
