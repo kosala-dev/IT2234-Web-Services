@@ -9,6 +9,13 @@
 2. **Create Collections**: `students` and `grades`
 3. **Insert Documents**: Use the JSON documents from the provided data.
 
+<img width="959" alt="1" src="https://github.com/user-attachments/assets/06c715de-c76c-4276-926f-6955115a9c5c" />
+<img width="959" alt="2" src="https://github.com/user-attachments/assets/3c747c5e-8ccd-4463-a35c-fb22df628935" />
+<img width="959" alt="insert stu1" src="https://github.com/user-attachments/assets/c16bb6d2-17aa-47dd-af6f-1efceb807084" />
+<img width="959" alt="insert stu2" src="https://github.com/user-attachments/assets/eff6b4fd-7577-4fb9-96c3-7e45eda996c8" />
+<img width="959" alt="insert stu3" src="https://github.com/user-attachments/assets/4ccb36ff-7896-497f-a227-b8362952d984" />
+<img width="959" alt="insert stu4" src="https://github.com/user-attachments/assets/817b614a-d057-4ff1-86c3-5a8d9f2fd612" />
+
 ---
 
 ## ✅ Task 2: Show Both Collections in Table View
@@ -25,6 +32,7 @@ db.students.find(
   { name: 1, age: 1, gender: 1, _id: 0 }
 )
 ```
+<img width="959" alt="3" src="https://github.com/user-attachments/assets/9ea6d007-e4ea-4ecc-972d-0f36fadbc2d0" />
 
 ---
 
@@ -35,6 +43,7 @@ db.students.find(
   { age: { $lt: 22 }, enrollmentYear: { $gt: 2020 } }
 )
 ```
+<img width="959" alt="4" src="https://github.com/user-attachments/assets/a4e79508-81a7-4cab-a7a2-a3f78aa3a240" />
 
 ---
 
@@ -61,12 +70,15 @@ db.students.aggregate([
 
 
 ---
+<img width="958" alt="5" src="https://github.com/user-attachments/assets/f92ec302-58da-4c03-b47d-9641a84c2867" />
+
 
 ## ✅ Task 6: Count Students Who Studied "Mathematics"
 
 ```js
 db.students.countDocuments({ major: "Mathematics" })
 ```
+<img width="959" alt="6" src="https://github.com/user-attachments/assets/3af8f99a-6ef9-4237-9a5b-089b0dd6eed2" />
 
 ---
 
@@ -99,6 +111,7 @@ db.grades.aggregate([
 ])
 
 ```
+<img width="941" alt="7" src="https://github.com/user-attachments/assets/c04014ae-e4aa-4eed-9ab6-8813258a7947" />
 
 ---
 
