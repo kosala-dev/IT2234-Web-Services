@@ -23,6 +23,9 @@
 > In MongoDB Compass: Select the collection → Click on **Table** tab (next to JSON tab).  
 
 ---
+<img width="959" alt="table view 1" src="https://github.com/user-attachments/assets/7e720535-2a7d-48f3-8f3a-a3cf8b9915d8" />
+<img width="958" alt="table view 2" src="https://github.com/user-attachments/assets/683eac39-f395-48e6-8df2-0ee7e3d0a9d5" />
+
 
 ## ✅ Task 3: Find Female Students (Display Only Name, Age, Gender)
 
