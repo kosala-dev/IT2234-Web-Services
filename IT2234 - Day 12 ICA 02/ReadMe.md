@@ -68,9 +68,11 @@ db.students.aggregate([
     }
   }
 ])
----
-<img width="958" alt="5" src="https://github.com/user-attachments/assets/f92ec302-58da-4c03-b47d-9641a84c2867" />
 
+```
+<img width="958" alt="5" src="https://github.com/user-attachments/assets/0883629a-aa1b-44e1-8dbc-d9318cdc4691" />
+
+---
 
 ## ✅ Task 6: Count Students Who Studied "Mathematics"
 
