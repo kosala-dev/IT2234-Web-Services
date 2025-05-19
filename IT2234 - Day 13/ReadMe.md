@@ -1,5 +1,5 @@
 
-# Course Management REST API
+# Course Management REST API (screen shots available)
 
 This is a simple RESTful API built with **Node.js**, **Express**, and **MongoDB (Mongoose)** that allows you to manage university courses. It supports full CRUD operations, including fetching by course ID or course code.
 
