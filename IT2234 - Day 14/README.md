@@ -41,6 +41,7 @@ This is a simple RESTful API built using **Node.js**, **Express**, and **MongoDB
    ```bash
    node index.js
    ```
+<img width="959" alt="1" src="https://github.com/user-attachments/assets/e1face3c-4713-41c4-b9c4-d64d86f7f12e" />
 
 ---
 
@@ -79,20 +80,14 @@ Already done in IT2234 - Day 13.
 ```
 
 ### 📸 Degree Routes
-```
-![Degree Route Screenshot](./screenshots/degree_get.png)
+
+<img width="959" alt="2" src="https://github.com/user-attachments/assets/79f404ef-8fc0-401a-ac3a-bcb91dde002a" />
+<img width="959" alt="3" src="https://github.com/user-attachments/assets/cade6f99-c761-4395-8f6c-ec2330796da3" />
+
 ```
 
 ### 📸 Student Routes
 ```
-![Student Route Screenshot](./screenshots/student_get.png)
-```
-
----
-
-## 🔗 Direct Download
-
-You can download the project directly from the following link:  
-**[Click here to download the ZIP](./SchoolAPI.zip)**
+<img width="959" alt="4" src="https://github.com/user-attachments/assets/cc34ee56-c016-410c-b417-b43a89f84a89" />
 
 ---
