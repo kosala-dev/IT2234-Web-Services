@@ -63,8 +63,9 @@ This project is a simple Library Management API built using Node.js, Express, an
 
 4. **Access endpoints:**
 
-  - `GET /Book` — List all books
 
+  - `GET /Book` — List all books
+  
   - `GET /Book/filter/:genre` — Filter books by genre
 
   - `GET /Student` — List all students
@@ -74,8 +75,18 @@ This project is a simple Library Management API built using Node.js, Express, an
   - `POST /Borrow/borrow` — Borrow a book (JSON body with studentId and bookId)
 
   - `POST /User/register` — Register a new user (JSON with username, email, password)
+    
+  ![post](https://github.com/user-attachments/assets/e5435553-2099-48eb-b1b4-f26c5b38c4f0)
+  ![usernameAlreadyAvailable](https://github.com/user-attachments/assets/5cd656d2-4ed1-438e-8744-d16fe25d17a6)
+
 
   - `POST /User/login` — Login user (JSON with username, password), returns JWT token
+    
+  ![loginToken](https://github.com/user-attachments/assets/6cdcb04e-49fb-4f92-9527-69973f82a194)
+  ![usernameWrong](https://github.com/user-attachments/assets/54c33c31-68de-41e1-8c13-f9e403835dc2)
+  ![passwordWrong](https://github.com/user-attachments/assets/05ec0181-a10c-43eb-8d7a-3a2e07df6732)
+
+
 ---
 
 ## Example: Borrowing a Book
