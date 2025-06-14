@@ -130,6 +130,6 @@ Login:- POST `/User/login` with:
 
 ---
 
-## License
+## Author
 
-MIT License
+Kosala Madushan
