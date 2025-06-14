@@ -93,3 +93,25 @@ All responses are in JSON format.
 Kosala Madushan
 
 ---
+
+## Expected Outputs
+
+![3](https://github.com/user-attachments/assets/45f92a1f-67a4-4a8e-9c09-48938142b53b)
+
+![p1](https://github.com/user-attachments/assets/11803ff1-8854-4a1f-9ca2-087c1984441b)
+
+![t1](https://github.com/user-attachments/assets/7a0541ad-df1a-47f2-b023-585f5093b6b1)
+
+![u1](https://github.com/user-attachments/assets/8c1087fd-5ddf-491a-af7f-07c803f0aee6)
+
+![p2](https://github.com/user-attachments/assets/b8d550d2-e713-4aa6-8518-dea3befe5e94)
+
+![t2](https://github.com/user-attachments/assets/cdac0ffb-9d04-448c-8fe4-f65c788a6a1f)
+
+![u2](https://github.com/user-attachments/assets/cabca50c-2355-4354-9fa8-a0d13397e178)
+
+
+
+
+
+
